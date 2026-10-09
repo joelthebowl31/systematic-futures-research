@@ -28,3 +28,9 @@ Uses adjusted SPY daily prices, not futures data; assumes 5 basis points per ent
 
 ## Next steps
 Next-open fills, accurate trade log and open-position accounting, explicit data date range, out-of-sample validation, and a research note presenting the findings.
+
+## Research findings
+
+Our first exploratory study compares seven moving-average combinations on SPY using the development portion of approximately 25 years of daily history. The 50/200 combination ranked first within this limited comparison (7.92% annualized return, 0.72 Sharpe, 23 transactions). This is **not evidence of a reliable trading edge**: parameters were selected after viewing historical data, and execution/cash assumptions remain simplified.
+
+[Read the moving-average parameter sensitivity study](research/moving_average_study.md).
