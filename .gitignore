@@ -2,3 +2,12 @@ __pycache__/
 .venv/
 .pytest_cache/
 *.pyc
+
+.env
+.env.*
+!.env.example
+data/
+results*/
+*.Last.txt
+*.csv.gz
+
